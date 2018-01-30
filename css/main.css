@@ -1,1 +1,63 @@
 main.css
+nav{
+  background: #002F43;
+}
+
+.follow-images{
+  width: 100%;
+  height: 30vh;
+}
+h3{
+  background: #A5BDC1;
+  padding: 1vh
+}
+.adopt-images{
+  width: 100%;
+  height: 30vh;
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+/* */
+
+button,#twittear:focus{
+  outline: none;
+}
+button,#twittear,.inicio,#twit,#picture:hover{
+  cursor: pointer;
+}
+.twitting{
+  padding: 1vh 0vw;
+  font-weight: 400;
+  font-size: 13px;
+  width: 100%;
+  left: 15px;
+  text-align: justify;
+  margin: 4px 0px 4px 0px;
+  text-indent: 30px;
+  background: #e0f2f1;
+}
+.time{
+  font-style: italic;
+  color: lightgray;
+}
+.user{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px black solid;
+  right: 150px;
+}
+.empty-row{
+  min-height: 4vh;
+}
+.publication-friend{
+  background: #e0f2f1;
+}
