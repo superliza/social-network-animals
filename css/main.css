@@ -1,1 +1,6 @@
-main.css
+body {
+  background-image: url("../assets/images/rosita.jpg");
+  margin: 0;
+  width: 100%;
+
+}
