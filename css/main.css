@@ -1,17 +1,18 @@
-main.css
-nav{
+nav {
   background: #002F43;
 }
 
-.follow-images{
+.follow-images {
   width: 100%;
   height: 30vh;
 }
-h3{
+
+h3 {
   background: #A5BDC1;
   padding: 1vh
 }
-.adopt-images{
+
+.adopt-images {
   width: 100%;
   height: 30vh;
 }
@@ -25,15 +26,16 @@ body {
  main {
    flex: 1 0 auto;
  }
-/* */
 
-button,#twittear:focus{
+button,#twittear:focus {
   outline: none;
 }
-button,#twittear,.inicio,#twit,#picture:hover{
+
+button,#twittear,.inicio,#twit,#picture:hover {
   cursor: pointer;
 }
-.twitting{
+
+.twitting {
   padding: 1vh 0vw;
   font-weight: 400;
   font-size: 13px;
@@ -44,20 +46,24 @@ button,#twittear,.inicio,#twit,#picture:hover{
   text-indent: 30px;
   background: #e0f2f1;
 }
-.time{
+
+.time {
   font-style: italic;
   color: lightgray;
 }
-.user{
+
+.user {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   border: 1px black solid;
   right: 150px;
 }
-.empty-row{
+
+.empty-row {
   min-height: 4vh;
 }
-.publication-friend{
+
+.publication-friend {
   background: #e0f2f1;
 }
