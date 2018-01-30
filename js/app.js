@@ -1,3 +1,16 @@
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyACkzddrK1VCr-wFW9XM7L2PCzPkjBeY5I",
+  authDomain: "red-social-ab349.firebaseapp.com",
+  databaseURL: "https://red-social-ab349.firebaseio.com",
+  projectId: "red-social-ab349",
+  storageBucket: "red-social-ab349.appspot.com",
+  messagingSenderId: "371967715964"
+};
+
+firebase.initializeApp(config);
+
+
 window.onload = function () {
 var button = document.getElementById("twittear");
   button.addEventListener("click", addText); //botton
