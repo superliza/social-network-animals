@@ -1,3 +1,4 @@
+
 # Social Network Animals
 ### Red Social
 
@@ -22,3 +23,4 @@ Puntos básicos que debe tener una red social:
 * >**29 de enero** Ideas sobre la temática de la red social, estructuración del sketch, comienzo de maquetación, investigación y fijar alcance.
 * >**30 de enero** Continuación de maquetación, investigación, funciones y comienzo de la presentación para el día de la entrega.
 * >**31 de enero** Afinación de detalles para posteriormente hacer la entrega del producto.
+
