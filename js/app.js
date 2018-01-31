@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+  $('.modal').modal();
+});
 // Initialize Firebase
 var config = {
   apiKey: "AIzaSyACkzddrK1VCr-wFW9XM7L2PCzPkjBeY5I",
@@ -61,8 +65,3 @@ function addAccount (){ //Contador de tipeado
       counting.value =("-"+(longitud-max));
     }
 };
-$(document).ready(function(){
-  // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-  $('.modal').modal();
-});
-     
