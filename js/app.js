@@ -29,6 +29,3 @@ function addText(){ //agregar texto
         document.getElementById("writting").value="";//borra mensaje escrito en el input cuando se manda //
         document.getElementById("writting").focus();
   };
-
-
-
