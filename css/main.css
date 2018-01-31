@@ -1,14 +1,21 @@
 nav {
   background: #002F43;
 }
-
+.content{
+  background-image: url("../assets/images/logoblanco.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
 .follow-images {
   width: 100%;
   height: 30vh;
 }
-
+.opacity{
+  background: rgba(28, 94, 209, 0.29);
+}
 h3 {
-  background: #A5BDC1;
+  background: rgba(0, 178, 255, 0.21);
   padding: 1vh;
   border-radius: 30%;
 }
