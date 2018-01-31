@@ -17,17 +17,39 @@
         <ul id="nav-mobile" class="right">
           <li><a href="profile.html"><i class="material-icons">person</i></a></li>
           <li><a class="btn btn-floating btn-large pulse" href=""><i class="material-icons">email</i></a></li>
-          <li><a href=""><i class="material-icons">editt</i></a></li>
-          <li><a href=""><i class="material-icons">settings</i></a></li>
+          <li><a href="../index.html"><i class="material-icons">settings</i></a></li>
         </ul>
       </div>
     </nav>
     <div class="row">
-      <div class="col"></div>
-      <div class="col"></div>
-      <div class="col m2 offset-m10 blue center-align"><img src="../assets/images/chat.jpg" alt="">
+        <div class="empty-row"></div>
+        <div class="col m1 offset-m4">
+          <img class="user" src="../assets/images/user.png" alt="user picture">
+        </div>
+        <div class="col m110">
+          <section id="news-feed">
+                  <form id="myForm" action="index.html" method="post">
+                    <textarea id="writting" placeholder="¿Qué tienes que decirle al mundo?" rows="8" cols="40"></textarea>
+                    <input id="twittear" class="btn" type="button" name="button" value="Publicar"></input>
+                  </form>
+            </section>
+            <div class="row">
+              <div class="empty-row"></div>
+              <div class="col s1 m1">
+                <img class="user" src="../assets/images/user.png" alt="">
+              </div>
+              <div class="col s10 m10 offset-s1 offset-m1 publication-friend">
+                <p class="twitting"><span class="strong">User:</span> Hola mundo!</p>
+                <p class="time">Hora de la publicación: 2:28</p>
+              </div>
+            </div>
+        </div>
+      <div class="col m2 offset-m blue center-align"><img src="../assets/images/chat.jpg" alt="">
       <p class="blue">Chat</p></div>
     </div>
+
+
+
     <footer class="page-footer blue darken-4">
           <div class="container">
             <div class="row">
