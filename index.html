@@ -10,12 +10,18 @@
     <title> Social network animals </title>
   </head>
   <body>
-    <div class="contenedor">
-      <div class="row">
-        <div class="col s12 m12">
-          <h2> LOGO </h2>
-        </div>
+    <nav>
+      <div class="nav-wrapper blue darken-4">
+        <a href="home.html" class="brand-logo"><i class="material-icons">pets</i>Social Network Animals</a>
+        <ul id="nav-mobile" class="right">
+          <li><a href="views/profile.html"><i class="material-icons">person</i></a></li>
+          <li><a class="btn btn-floating btn-large pulse" href="messages.html"><i class="material-icons">email</i></a></li>
+          <li><a href=""><i class="material-icons">editt</i></a></li>
+          <li><a href=""><i class="material-icons">settings</i></a></li>
+        </ul>
       </div>
+    </nav>
+    <div>
       <div class="row">
         <div class="col s3 m3">
           <ul class="collapsible" data-collapsible="accordion">
@@ -23,9 +29,9 @@
               <div class="collapsible-header"> Inicia sesión </div>
               <form class="collapsible-body input-field">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="icon_prefix" type="text" class="validate" placeholder="Usuario">
+                <input pattern="user" id="icon_prefix" type="text" class="validate" placeholder="Usuario">
                 <i class="material-icons prefix">vpn_key</i>
-                <input id="password" type="password" class="validate" placeholder="Password">
+                <input pattern="12345" id="password" type="password" class="validate" placeholder="Password">
                 <a href="views/home.html" class="waves-effect waves-light btn"> Inicia sesión </a>
               </form>
             </li>

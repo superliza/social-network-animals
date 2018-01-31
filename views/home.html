@@ -16,9 +16,9 @@
     <a href="" class="brand-logo"><i class="material-icons">pets</i>Social Network Animals</a>
     <ul id="nav-mobile" class="right">
       <li><a href="profile.html"><i class="material-icons">person</i></a></li>
-      <li><a class="btn btn-floating btn-large pulse" href=""><i class="material-icons">notifications</i></a></li>
-      <li><a href=""><i class="material-icons">email</i></a></li>
+      <li><a class="btn btn-floating btn-large pulse" href="messages.html"><i class="material-icons">email</i></a></li>
       <li><a href=""><i class="material-icons">editt</i></a></li>
+      <li><a href=""><i class="material-icons">settings</i></a></li>
     </ul>
   </div>
 </nav>
@@ -29,12 +29,12 @@
         <h3 class="center-align">Asociaciones</h3>
         <ul class="collapsible" data-collapsible="accordion">
           <li>
-            <div class="collapsible-header">
+            <div class="collapsible-header transparent">
               <img class="follow-images" src="../assets/images/adopta.jpg" alt="">
               </div>
             <div class="collapsible-body">
               <p>Asociación peludos</p>
-              <a href="" class="waves-effect waves-light btn #8c9eff indigo accent-1">Visitar</a>
+              <a href="https://www.teaming.net/asociacionpeludos" class="waves-effect waves-light btn #8c9eff indigo accent-1">Visitar</a>
             </div>
           </li>
           <li>
@@ -43,7 +43,7 @@
               </div>
             <div class="collapsible-body">
               <p>Asociación Callejeritos</p>
-              <a href="" class="waves-effect waves-light btn #8c9eff indigo accent-1">Visitar</a></div>
+              <a href="https://www.quieroayudar.org/Ong/Asociacion-Civil-Callejeritos" class="waves-effect waves-light btn #8c9eff indigo accent-1">Visitar</a></div>
           </li>
         </ul>
       </div>
@@ -56,23 +56,41 @@
         <img class="user" src="../assets/images/adro.jpg" alt="">
       </div>
       <div class="col s10 m10 offset-s1 offset-m1 publication-friend">
-        <p class="twitting">User: Hola mundo!</p>
+        <p class="twitting"><span class="strong">Gaby:</span> Hola mundo!</p>
         <p class="time">Hora de la publicación: 2:28</p>
       </div>
+    </div>
+    <div class="row">
+      <div class="empty-row"></div>
+      <div class="col s1 m1">
+        <img class="user" src="../assets/images/conejitos.jpg" alt="">
+      </div>
+      <div class="col s10 m10 offset-s1 offset-m1 publication-friend">
+        <p class="twitting"><span class="strong">Sam:</span> Adopten!</p>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ek7fS3BGmcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <p class="time">Hora de la publicación: 2:28</p>
+      </div>
+
     </div>
   </div>
   <div class="col s3 m3 adoption">
     <div class="row">
       <div class="col s10 m10">
         <h3 class="center-align">Adopta</h3>
-        <ul class="collapsible" data-collapsible="accordion">
+        <ul class="collapsible transpa" data-collapsible="accordion">
           <li>
             <div class="collapsible-header">
               <img class="adopt-images circle" src="../assets/images/perrito2.jpg" alt="">
               </div>
             <div class="collapsible-body">
-              <p>Tobby</p>
-              <a href="" class="waves-effect waves-light btn #8c9eff indigo accent-1">Adopta!</a>
+              <p>Nombre: Tobby</p>
+              <p>Talla: mediana</p>
+              <p>Edad: tres meses</p>
+              <p>Raza: Labrador</p>
+              <!-- Modal Trigger -->
+              <a class="waves-effect waves-light btn modal-trigger  #8c9eff indigo accent-1" href="#modal1">Adopta!</a>
             </div>
           </li>
           <li>
@@ -80,8 +98,12 @@
               <img class="adopt-images circle" src="../assets/images/perrito3.jpg" alt="">
               </div>
             <div class="collapsible-body">
-              <p>Sugar</p>
-              <a href="" class="waves-effect waves-light btn #8c9eff indigo accent-1">Adopta!</a></div>
+              <p>Nombre: Sugar</p>
+              <p>Talla: mediana</p>
+              <p>Edad: seis meses</p>
+              <p>Raza: Mestizo</p>
+              <!-- Modal Trigger -->
+              <a class="waves-effect waves-light btn modal-trigger  #8c9eff indigo accent-1" href="#modal1">Adopta!</a>
           </li>
         </ul>
       </div>
@@ -110,6 +132,50 @@
             <div class="row">© 2014 Copyright Text</div>
           </div>
         </footer>
+
+ <!-- Modal Structure -->
+ <div id="modal1" class="modal">
+   <div class="modal-content">
+     <h4 class="center-align">Solicitud de adopción</h4>
+     <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Nombre</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Apellido</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="adress" type="text" class="validate">
+          <label for="adress">Dirección</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="phone" type="tel" class="validate">
+          <label for="phone">Teléfono</label>
+        </div>
+      </div>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green #8c9eff indigo accent-1 btn">Enviar</a>
+      </div>
+
+    </form>
+  </div>
+
+   </div>
+
+ </div>
   </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../js/materialize.min.js"></script>
